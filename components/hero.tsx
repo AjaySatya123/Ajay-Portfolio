@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
-  const roles = ['Full Stack Developer', 'Java Developer', 'Cloud Enthusiast'];
+  const roles = ['Full Stack Developer', 'Java Developer', 'DevOps Engineer'];
   const [roleIndex, setRoleIndex] = useState(0);
 
   useEffect(() => {

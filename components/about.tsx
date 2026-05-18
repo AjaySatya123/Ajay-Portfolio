@@ -55,16 +55,16 @@ const About = () => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-          <motion.p variants={itemVariants} className="text-slate-300 mb-6 leading-relaxed">
-            I&apos;m a passionate Full Stack Developer currently pursuing B.Tech in Computer Science Engineering at KL University (2022-2026). With expertise in Java, Python, and modern web technologies like the MERN stack, I focus on building scalable and user-centric applications.
-          </motion.p>
-
             <motion.p variants={itemVariants} className="text-slate-300 mb-6 leading-relaxed">
-            My journey in tech started with learning Java and Python fundamentals, and has evolved into developing full-stack web applications. I combine technical expertise with problem-solving skills to create solutions that make a real impact.
+              I&apos;m a passionate Full Stack Developer and a B.Tech graduate in Computer Science Engineering at KL University (2022-2026). With expertise in Java, Python, and modern web technologies like the MERN stack, I focus on building scalable and user-centric applications.
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-slate-300 mb-6 leading-relaxed">
-            When I&apos;m not coding, you&apos;ll find me exploring cloud technologies, contributing to GitHub projects, or collaborating with my team on innovative solutions.
+              My journey in tech started with learning Java and Python fundamentals, and has evolved into developing full-stack web applications. I combine technical expertise with problem-solving skills to create solutions that make a real impact.
+            </motion.p>
+
+            <motion.p variants={itemVariants} className="text-slate-300 mb-6 leading-relaxed">
+              When I&apos;m not coding, you&apos;ll find me exploring cloud technologies, contributing to GitHub projects, or collaborating with my team on innovative solutions.
             </motion.p>
 
             <motion.div variants={itemVariants}>
